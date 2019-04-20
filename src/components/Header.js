@@ -1,6 +1,7 @@
 import React from 'react';
 
-export const Header = {props} => {
+const Header = (props) => {
+  console.log(props);
   return (
     <header>
       <h1>{ props.title }</h1>
@@ -8,3 +9,5 @@ export const Header = {props} => {
     </header>
   );
 }
+
+export default Header;
